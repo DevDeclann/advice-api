@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+body {
+  background: #1f2632;
+}
+
+.card-container {
+  margin: 10px;
+  padding: 20px;
+  width: 40rem;
+  height: 20rem;
+  margin: auto;
+  margin-top: 10%;
+  background: #323a49;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.card-container .divider {
+  margin: 35px;
+}
+
+.card-container button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  background: #52ffa8;
+  outline: none;
+  border: none;
+  border-radius: 200px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card-container button:hover {
+  -webkit-box-shadow: 0px 0px 20px #52ffa8;
+          box-shadow: 0px 0px 20px #52ffa8;
+}
+
+.card-container button img {
+  width: 2em;
+}
+
+.card-container .qoute-header {
+  margin-top: 5%;
+  padding: 20px;
+}
+
+.card-container .qoute-header #qouteID {
+  color: #52ffa8;
+  letter-spacing: 4px;
+  font-size: 16px;
+  font: lighter;
+}
+
+.card-container .qoute-content {
+  color: #cee3e9;
+  width: 20em;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
