@@ -1,0 +1,61 @@
+// Variables
+$mobile: 375px
+$desktop: 1440px
+
+// Primary
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+
+// Neutral
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+    
+*
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+
+body
+    background: $darkBlue;
+
+.card-container
+    margin: 10px;
+    padding: 20px;
+    width: 40rem;
+    height: 20rem;
+    margin: auto;
+    margin-top: 10%;
+    background: $darkGrayishBlue;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    .divider
+        margin: 35px;
+    button
+        display: flex;
+        margin: auto;
+        background: $neonGreen;
+        outline: none;
+        border: none;
+        border-radius: 200px;
+        padding: 10px;
+        cursor: pointer
+        &:hover
+            box-shadow: 0px 0px 20px $neonGreen;
+        img
+            width: 2em
+    .qoute-header
+        margin-top: 5%;
+        padding: 20px;
+        #qouteID
+            color: $neonGreen;
+            letter-spacing: 4px;
+            font-size: 16px;
+            font: lighter;
+    .qoute-content
+        color: $lightCyan;
+        width: 20em;
+        margin: auto;
+
